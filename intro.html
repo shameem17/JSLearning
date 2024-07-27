@@ -52,12 +52,28 @@
             <br>
             <li>
                 <b>JavaScript Can Hide HTML Elements</b> <br>
-                <p id="hideElement">Hide Text</p>
-                <button type="button" onclick="document.getElementById('hideElement').style.display = 'none';">
+                <p id="hideElement">show/Hide Text</p>
+                <button type="button" onclick="showHidePassword(false)">
                     Hide Text
+                </button> &nbsp;
+                <button type="button" onclick="showHidePassword(true)">
+                    Show Text
                 </button>
             </li>
+
         </ol>
+        <!-- js inside script tag -->
+        <!-- placing js code bottom is better. because of display loading issue -->
+        <script>
+            function showHidePassword(isHidden){
+                if (isHidden == true){
+                    document.getElementById('hideElement').style.display = 'block';
+                }else{
+                    document.getElementById('hideElement').style.display = 'none';
+                }
+                
+            }
+        </script>
     </body>
 
     <!-- code for JavaScript -->

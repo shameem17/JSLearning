@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Intro</title>
+    </head>
+
+
+    <body>
+        <center><h3> JavaScript Learning</h3> 
+        <p>
+            JavaScript is a language for web.
+        </p>
+        <h2>Introduction</h2>
+        </center>
+
+        <ol>
+            <li><b>JavaScript Can Change HTML Content(innerHTML)</b>
+                <br>
+                <p>document.getElementById("demo").innerHTML = "Hello JavaScript";</p><br>
+                <button type="button" onclick=" document.getElementById('changeItem').innerHTML = 'Item has been changed';">
+                    Change Content
+                </button>
+                <p id="changeItem">Content will change</p>
+
+            </li>
+            <br>
+            <li>
+                <b>JavaScript Can Change HTML Attribute Values</b>
+                <br>
+                <p>document.getElementById('id').src = "image source"</p>
+                <button type="button" onclick=" document.getElementById('changeImage').src = 'red.png'; ">
+                    Red Image 
+                </button> &nbsp;
+                <img id="changeImage" src="green.png" style="width: 100px; height: 60px;"> &nbsp; 
+
+                <button type="button" onclick=" document.getElementById('changeImage').src = 'green.png'; ">
+                    Green Image
+                </button>
+
+            </li>
+            <br>
+            <li>
+                <b>JavaScript Can Change HTML Styles (CSS) </b> <br>
+                <p>document.getElementById("demo").style.fontSize = "35px";</p>
+                <p id="changeCSS" style="font-size: 20px;">Change font size</p>
+
+                <button type="button" onclick=" document.getElementById('changeCSS').style.color = 'red' ; document.getElementById('changeCSS').style.fontSize = '25px'; ">
+                    Change Font
+                    </button>
+                
+            </li>
+            <br>
+            <li>
+                <b>JavaScript Can Hide HTML Elements</b> <br>
+                <p id="hideElement">Hide Text</p>
+                <button type="button" onclick="document.getElementById('hideElement').style.display = 'none';">
+                    Hide Text
+                </button>
+            </li>
+        </ol>
+    </body>
+
+    <!-- code for JavaScript -->
+    <script>
+       
+    </script>
+
+</html>

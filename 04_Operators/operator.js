@@ -34,3 +34,10 @@ if (num1 == num2){
 
 let result = num1 > num2 ? true : false;
 console.log(typeof(result));
+
+let string1 = "Bangladesh";
+let string2 = " is my country";
+let stringConcat = string1 + string2;
+console.log(stringConcat);
+stringConcat2 = `Beautiful ${string1}`;
+console.log(stringConcat2);

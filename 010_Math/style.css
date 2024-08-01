@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+button{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+button:hover{
+    background-color: aqua;
+}
+img{
+    border-radius: 20px;
+}

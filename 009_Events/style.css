@@ -1,0 +1,26 @@
+body{
+    /* align-items: center; */
+    color: red;
+}
+.container{
+    text-align: center;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+#subscribeButton{
+    padding: 10px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+#likeButton{
+    background-color: #2781FE;
+    border: 0px;
+    padding: 5px;
+    color: white;
+}
+
+ul{
+    color: black;
+}
